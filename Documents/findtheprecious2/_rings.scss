@@ -1,0 +1,18 @@
+
+@mixin ring($width, $height, $color, $thickness) {
+    width: $width;
+    height: $height;
+    border: solid $thickness $color;
+    border-radius: 50%;
+}
+
+$main-ring-color: rgb(243, 201, 64);
+
+
+#main-ring {
+    @include ring(100px, 100px, $main-ring-color, 5px);
+}
+
+.title-ring {
+    @include ring(20px, 20px, orange, 2px);
+}

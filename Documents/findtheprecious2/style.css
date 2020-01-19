@@ -1,0 +1,44 @@
+nav {
+  background-color: orange;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+}
+
+nav a {
+  color: white;
+}
+
+footer {
+  background-color: orange;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  color: white;
+}
+
+#main-ring {
+  width: 100px;
+  height: 100px;
+  border: solid 5px #f3c940;
+  border-radius: 50%;
+}
+
+.title-ring {
+  width: 20px;
+  height: 20px;
+  border: solid 2px orange;
+  border-radius: 50%;
+}
+
+.super-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+}
+/*# sourceMappingURL=style.css.map */

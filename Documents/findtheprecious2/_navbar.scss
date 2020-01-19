@@ -1,0 +1,16 @@
+nav {
+    background-color: orange;
+    display: flex;
+    height: 50px;
+    a {
+        color: white;
+    }
+}
+
+footer {
+    background-color: orange;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    color: white;
+}
